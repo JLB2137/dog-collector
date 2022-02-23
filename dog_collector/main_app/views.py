@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Dog
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 # Create your views here.
 
