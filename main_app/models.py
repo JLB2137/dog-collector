@@ -23,7 +23,7 @@ class Dog(models.Model):
 
 
 class Feeding(models.Model):
-    date = models.DateField()
+    date = models.DateField('Feeding Date')
     meal = models.CharField(max_length=1, choices=MEALS, default=MEALS[0][0])
     dog = models.ForeignKey(Dog, on_delete=models.CASCADE)
 
