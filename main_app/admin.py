@@ -5,3 +5,5 @@ from .models import Dog, Feeding
 admin.site.register(Dog)
 
 admin.site.register(Feeding)
+
+admin.site.register(Toy)
